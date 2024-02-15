@@ -1,17 +1,18 @@
-### CodeAlpha_Project_Task-1
-# Student Grade Tracker
+## Getting Started
 
-This program allows a teacher to enter students' grades and compute their average, highest, and lowest scores.
+Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## How to Run
+## Folder Structure
 
-1. Compile the Java files: `javac Main.java Student.java`
-2. Run the Main class: `java Main`
+The workspace contains two folders by default, where:
 
-## How to Use
+- `src`: the folder to maintain sources
+- `lib`: the folder to maintain dependencies
 
-1. When prompted, enter a student's name.
-2. Then enter the grades for that student, one at a time.
-3. When you're done entering grades for a student, type 'done'.
-4. To finish entering students, type 'quit'.
-5. The program will then print out the average, highest, and lowest grade for each student.
+Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+
+> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+
+## Dependency Management
+
+The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
