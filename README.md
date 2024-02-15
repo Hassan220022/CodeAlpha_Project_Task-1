@@ -1,18 +1,19 @@
-## Getting Started
+# Student Grade Tracker
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a simple Java program that allows a teacher to enter students' grades and compute their average, highest, and lowest scores. The student data is stored in an ArrayList for easy manipulation and computation.
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
+- Add Student Grades: The teacher can add student grades one by one into the system.
+- Compute Average: The program can compute the average grade of all the students.
+- Find Highest Grade: The program can find the highest grade among all the students.
+- Find Lowest Grade: The program can find the lowest grade among all the students.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Usage
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Compile the Java file using the command `javac GradeTracker.java`.
+2. Run the compiled Java file using the command `java GradeTracker`.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Note
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+This is a simple program and does not include any error handling or data validation. It is recommended to add these features for a more robust application.
